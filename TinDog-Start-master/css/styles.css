@@ -1,0 +1,132 @@
+body{
+  font-family: 'Montaga', serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+h1{
+  font-family: 'Montaga', serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+.container-fluid{
+  padding: 5% 15% 10%;
+
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 16px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+
+.title-img{
+  width: 22%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+  right: 25%
+}
+
+
+h3{
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'Montaga', serif;
+}
+p{
+  color: grey;
+  font-size: 1.2rem;
+}
+#features{
+  padding: 8% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-family: 'Montaga', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testi-img{
+  border-radius: 100%;
+  margin: 20px;
+  clear: right;
+
+}
+.pebbles{
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 50px 20px;
+
+}
+#pricing{
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.button1:hover{
+  background-color: #ff4c68;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 1rem;
+  color: #fff;
+
+}
+#footer{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #fff;
+
+}
+
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
